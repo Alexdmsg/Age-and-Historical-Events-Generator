@@ -1,6 +1,6 @@
 # Age and Historical events Generator
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <URL https://www.youtube.com/watch?v=xWCUWHJaZzE>
 
 #### Description:
 This Python program calculates your age and provides historical events that occurred in the year of your birth. The birthdate is inputted as day, month, and year, and the program uses the datetime library to perform calculations.
@@ -22,10 +22,10 @@ To execute the program, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/age-calculator.git
+   git clone https://github.com/Alexdmsg/Age-and-Historical-Events-Generator.git
 
 Navigate to the project directory:
-cd age-calculator
+cd Age-and-Historical-Events-Generator
 
 Run the program:
 python project.py
@@ -52,6 +52,13 @@ The program relies on Python's standard library, so no additional dependencies n
 
 Testing
 The program includes a test suite to ensure its correctness. To run the tests, use the following command:
+
+
+python test_project.py
+
+Notes
+Ensure that you input valid date values.
+Historical events are retrieved from a predefined dictionary in historical_events.py.
 
 
 python test_project.py
